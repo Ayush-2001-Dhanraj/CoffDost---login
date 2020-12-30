@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffa36c;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("poster.png");
+}
+
+figure {
+  margin: 0;
+}
+
+.logo {
+  width: 5%;
+  height: auto;
+}
+
+/* Header Section */
+header {
+  max-width: 100%;
+  background-color: #d54062;
+  color: #ebdc87;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoContrainer {
+  display: inline;
+  width: 30%;
+  padding: 0.5%;
+}
+
+.logoSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 0 2%;
+  padding: 0.5%;
+}
+
+figcaption {
+  font-size: 130%;
+  font-weight: 800;
+}
+
+.headerLogo {
+  width: 15%;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 0 0 8%;
+  padding: 0.5%;
+  width: 50%;
+}
+
+.headerLink {
+  color: #ebdc87;
+  margin: 0 5%;
+  padding: 1%;
+  text-decoration: none;
+  font-size: 140%;
+}
+
+.headerLink:hover {
+  background-color: rgb(142, 44, 65);
+}
+
+.signup {
+  background-color: rgb(142, 44, 65);
+}
+
+/* main Section */
+.back {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  text-align: center;
+  padding: 2%;
+  margin: 0;
+  width: 30%;
+  margin: 0% auto;
+  background-color: rgba(213, 64, 98, 0.8);
+  border-radius: 2%;
+}
+
+/* Mobile Section  */
+.mobileSection {
+  box-sizing: content-box;
+  border-width: 5px 5px 0 5px;
+  border-style: solid;
+  border-color: #ebdc87;
+  width: 50%;
+  margin: 0.5% auto 0;
+  font-size: 150%;
+}
+
+.mobileSection p {
+  margin: 0.5%;
+  font-weight: 800;
+  color: #ebdc87;
+}
+
+.mobileSection nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1.5%;
+}
+
+.mobileLink {
+  text-decoration: none;
+  color: #ebdc87;
+  margin-right: 2%;
+  width: 50%;
+}
+
+hr {
+  border: none;
+  border-top: 10px solid #ebdc87;
+  width: 80%;
+}
+
+/* Login Form */
+form {
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 160%;
+}
+
+legend h1 {
+  margin: 0;
+  color: #ebdc87;
+}
+
+input {
+  border: none;
+  border: 4px solid rgb(145, 43, 65);
+  width: 30%;
+  padding: 1%;
+  font-family: inherit;
+  font-size: 100%;
+  border-radius: 4%;
+  text-align: center;
+  color: rgb(145, 43, 65);
+}
+
+/* footer Section  */
+.footerLogo {
+  width: 30%;
+}
+
+input:focus {
+  font-weight: 600;
+}
+
+.formLinkSection {
+  font-size: 130%;
+}
+
+span {
+  color: #ebdc87;
+  font-weight: 900;
+}
+
+.formLinks {
+  color: #ebdc87;
+  text-decoration: none;
+}
