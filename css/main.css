@@ -216,7 +216,7 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
-  /* background-color: rgba(255, 255, 255, 0.9); */
+  background-color: rgba(242, 112, 156, 0.5);
 }
 
 .wrap-login100 {
@@ -224,11 +224,10 @@ iframe {
   border-radius: 10px;
   overflow: hidden;
   padding: 55px 55px 37px 55px;
-  background: #9152f8;
-  background: -webkit-linear-gradient(top, #7579ff, #b224ef);
-  background: -o-linear-gradient(top, #7579ff, #b224ef);
-  background: -moz-linear-gradient(top, #7579ff, #b224ef);
-  background: linear-gradient(top, #7579ff, #b224ef);
+  background: -webkit-radial-gradient(#f2709c, #ff9472);
+  background: -o-radial-gradient(#f2709c, #ff9472);
+  background: -moz-radial-gradient(#f2709c, #ff9472);
+  background: radial-gradient(#f2709c, #ff9472);
 }
 
 /*------------------------------------------------------------------
@@ -469,6 +468,7 @@ iframe {
 
 .login100-form-btn:hover {
   color: #fff;
+  background-image: linear-gradient(#ad5371, #a5614c);
 }
 
 .login100-form-btn:hover:before {
@@ -478,7 +478,7 @@ iframe {
 /* Header Section */
 header {
   max-width: 100%;
-  background-color: #d54062;
+  background-image:  linear-gradient(#f2709c, #ff9472);
   color: #fff;
   display: flex;
   flex-direction: row;
@@ -542,7 +542,7 @@ header nav {
 footer {
   width: 100%;
   max-width: 100%;
-  background-color: #d54062;
+  background-image: linear-gradient(to top, #f2709c, #ff9472);
   color: #000;
   text-align: center;
   padding: 1%;
