@@ -499,6 +499,19 @@ header {
   padding: 0.5%;
 }
 
+#about {
+  text-align: center;
+  margin: 0 0 1%;
+}
+
+.aboutText {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 130%;
+  color: #fff;
+  width: 80%;
+}
+
 figcaption {
   font-size: 120%;
   font-family: 'Pacifico', cursive;
@@ -573,6 +586,15 @@ footer p {
   padding-top: 4%;
 }
 
+.playstore {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 2%;
+}
+
+
 /*------------------------------------------------------------------
 [ Responsive ]*/
 @media (max-width: 576px) {
@@ -590,6 +612,12 @@ footer p {
 @media (max-width: 500px) {
   .wrap-login100 {
     width: 90%;
+  }
+
+  .aboutText {
+    font-size: 90%;
+    margin-bottom: 1%;
+    width: 100%;
   }
 
   .headerLink {
@@ -616,6 +644,12 @@ footer p {
 
 @media (max-width: 320px) {
   .wrap-login100 {
+    width: 100%;
+  }
+
+  .aboutText {
+    font-size: 80%;
+    margin-bottom: 1%;
     width: 100%;
   }
 
